@@ -11,6 +11,11 @@ This is a basic React-based weather application.
 3. Copy `.env.sample` to `.env` and configure your OpenWeatherMap API key
 4. Start the development server: `npm run dev`
 
+**NOTE**
+An OpenWeather API key is required to fetch real data. 
+You can register for a free api-key at [OpenWeather](https://openweathermap.org) 
+or you can stub out the calls to the WeatherAPI to return static data for local testing.
+
 ## Testing
 
 ### End-to-End Tests (Playwright)
@@ -55,6 +60,11 @@ This opens Playwright's debug interface for interactive test debugging.
 ## Technical Implementation Exercises
 
 This assessment is designed for mid-level React developers and should take approximately 30 minutes to complete. Choose ONE of the following exercises to implement.
+
+**NOTE**
+An OpenWeather API key is required to fetch real data. 
+You can register for a free api-key at [OpenWeather](https://openweathermap.org) 
+or you can stub out the calls to the WeatherAPI to return static data for local testing.
 
 ### Exercise 1: Temperature Highlights Component
 
